@@ -1,20 +1,20 @@
 import Image from 'next/image'
 import { useState } from 'react'
-// import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js'
 
-// export async function getStaticProps() {
-//   const supabaseAdmin = createClient(
-//     process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-//     process.env.SUPABASE_SERVICE_ROLE_KEY || ''
-//   )
+export async function getStaticProps() {
+  const supabaseAdmin = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL || '',
+    process.env.SUPABASE_SERVICE_ROLE_KEY || ''
+  )
 
-//   const { data } = await supabaseAdmin.from('images').select('*').order('id')
-//   return {
-//     props: {
-//       images: data,
-//     },
-//   }
-// }
+  const { data } = await supabaseAdmin.from('images').select('*').order('id')
+  return {
+    props: {
+      images: data,
+    },
+  }
+}
 
 function cn(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
