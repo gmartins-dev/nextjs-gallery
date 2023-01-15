@@ -4,7 +4,7 @@
 
 body {
   height: 100vh;
-  background-image: conic-gradient(
+  background-color: conic-gradient(
     at right center,
     rgb(199, 210, 254),
     rgb(71, 85, 105),

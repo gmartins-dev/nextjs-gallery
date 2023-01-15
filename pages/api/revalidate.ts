@@ -12,7 +12,7 @@ export default async function handler(
   try {
     // Regenerate our index route showing the images
     await res.revalidate('/')
-    return res.json({ revalidated: true })
+    return res.json({ revalidate: true })
   } catch (err) {
     // If there was an error, Next.js will continue
     // to show the last successfully generated page

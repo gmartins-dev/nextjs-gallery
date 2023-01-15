@@ -1,6 +1,6 @@
+import { createClient } from '@supabase/supabase-js'
 import Image from 'next/image'
 import { useState } from 'react'
-import { createClient } from '@supabase/supabase-js'
 
 export async function getStaticProps() {
   const supabaseAdmin = createClient(
@@ -50,7 +50,7 @@ function BlurImage({ image }: { image: Image }) {
 
   return (
     <main>
-      <a href={image.href} className="group">
+      <a href={image.href} target="_blank" className="group">
         <div className="w-full overflow-hidden bg-gray-200 rounded-lg aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
           <Image
             alt=""
