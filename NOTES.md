@@ -5,3 +5,6 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdvYmJicG1
 
 nextjs-gallery
 WCaW5eFBndM3ZR0V
+
+
+https://nextjs-gallery-426bgj8yx-guilhermemm-dev.vercel.app/api/revalidate
