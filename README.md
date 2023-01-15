@@ -4,7 +4,7 @@
 
 
 
-<img width="1406" height="auto" alt="demo" src="https://images2.imgbox.com/17/64/7N7JNYCM_o.png">
+<img width="1406" height="auto" alt="demo" src="./gallerydemo%20(1).png">
 
 ## Built With
 
