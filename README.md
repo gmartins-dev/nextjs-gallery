@@ -4,7 +4,7 @@
 
 
 
-<img width="1406" height="auto" alt="demo" src="../public/gallerydemo%20(1).png">
+<img width="1406" height="auto" alt="demo" src="https://raw.githubusercontent.com/guilhermemm-dev/nextjs-gallery/master/public/gallerydemo%20(1).png">
 
 ## Built With
 
