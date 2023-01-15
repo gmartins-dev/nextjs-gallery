@@ -1,0 +1,7 @@
+SUPABASE
+https://gobbbpmxlidnywrpetwl.supabase.co
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdvYmJicG14bGlkbnl3cnBldHdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzM3ODQ0MTYsImV4cCI6MTk4OTM2MDQxNn0.fdkoQrC1RNB0p1er6VtPLD8VMbDf2uRsFDVbiLnkMvA
+
+nextjs-gallery
+WCaW5eFBndM3ZR0V
