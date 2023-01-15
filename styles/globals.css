@@ -4,9 +4,10 @@
 
 body {
   height: 100vh;
-  background-image: radial-gradient(
-    at center bottom,
-    rgb(56, 189, 248),
-    rgb(186, 230, 253)
+  background-image: conic-gradient(
+    at right center,
+    rgb(199, 210, 254),
+    rgb(71, 85, 105),
+    rgb(199, 210, 254)
   );
 }
